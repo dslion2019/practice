@@ -20,4 +20,5 @@ import study.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', study.views.home, name='home'),
+    path('study3/',study.views.study3, name='study3'),
 ]
